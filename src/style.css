@@ -1,0 +1,135 @@
+body {
+  margin: 0px;
+}
+
+.navbar {
+  background-color: #4d5b9e;
+  position: sticky fixed;
+  color: white;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: Karla;
+  font-style: normal;
+  box-shadow: 0px 8px 24px 0px rgba(177, 177, 177, 1);
+}
+
+.navbar--title {
+  padding: 10px;
+  margin: 0px;
+}
+
+.start {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 37px;
+
+  color: #293264;
+}
+
+.start--btn,
+.quiz--btn {
+  font-family: "Inter", sans-serif;
+  width: 193px;
+  height: 52px;
+  background: #4d5b9e;
+  border-radius: 15px;
+  border: none;
+  color: #f5f7fb;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.quiz--btn {
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+}
+
+.quiz {
+  padding: 40px;
+  display: flex;
+  flex-flow: column;
+}
+
+.question {
+  text-align: center;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+  margin: 10px 0px 10px 0px;
+  text-align: left;
+}
+
+.quiz--answers {
+  border-bottom: 0.794239px solid #dbdef0;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.quiz--answers input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.quiz--score {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  margin-top: 20px;
+  color: #293264;
+}
+
+.answer-container {
+  margin: 0px 10px 15px 0px;
+}
+
+.answer {
+  margin-bottom: 15px;
+  min-width: 66px;
+  border: 0.794239px solid #4d5b9e;
+  box-sizing: border-box;
+  border-radius: 7.94239px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  white-space: nowrap;
+  /* identical to box height */
+  padding: 5px 20px 5px 20px;
+
+  text-align: center;
+
+  color: #293264;
+}
